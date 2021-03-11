@@ -4,7 +4,7 @@
 /* Variable */
 :root{
 --menubuttonwidth: 16%;
---cssfileversion: "0100";
+--cssfileversion: "0110";
 --articlefont:Verdana;
 --skycamorange:#f05526;
 --skycamgrey:#a2a2a2;
@@ -61,6 +61,10 @@ height: 500px;
 h1.TitleArticle{
 h1.TitleArticle{}
 }
+b.ArticleText{
+color: var(--dovesorange);
+font-size: 14pt;
+}
 p.ArticleFooter{
 background-color: #ffffffcc;
 margin: 0px;
@@ -70,6 +74,62 @@ font-family: var(--articlefont);
 font-size: 8pt;
 text-align: center;
 font-weight: bold;
+}
+h1.TitleArticleText{
+text-align: center;
+    color: var(--dovesorange);
+    font-size: 20pt;
+    padding: 0px 0px 5px 0px;
+    border: 0px solid;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    line-height: 1.5;
+}
+div.ArticleMenuBar{
+position: fixed;
+    width: 12%;
+    margin: 0% 3% 0% 85%;
+}
+div.Article{
+width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+div.DefaultArticle{
+padding: 0px;
+    margin: 0px;
+}
+div.YouTubeEmbedArticle{
+position: static;
+    z-index: 99;
+    width: 60%;
+    height: 70%;
+    margin: 0% 20% 0% 20%;
+    border: 5px solid var(--bodygreyframe);
+}
+div.ArticleMenuItem{
+display: flex;
+    width: 100%;
+    height: 50px;
+    font-family: arial;
+    font-size: 10pt;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: #88888811;
+    margin: 0% 0% 5px 0%;
+    align-items: center;
+    border: 2px solid var(--bodygreyframe);
+}
+div.TitleArticle{
+text-align: center;
+    color: var(--dovesorange);
+    font-size: 20pt;
+    padding: 0px 0px 5px 0px;
+    border: 0px solid;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    line-height: 1.5;
 }
 a.EmailLink{
 font-size: 10pt;
@@ -84,10 +144,6 @@ color: var(--dovesorange);
     font-size: 16pt;
     padding: 0px;
     margin: 5px 0px 5px 0px;
-}
-b.ArticleText{
-color: var(--dovesorange);
-font-size: 14pt;
 }
 .bground{
 width: 100%;
