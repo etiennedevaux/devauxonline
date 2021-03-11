@@ -4,7 +4,7 @@ README.md
 
 ## Version Details
 README Version: 0001;  
-HTML Version: 0020;  
+HTML Version: 0021;  
 CSS Version: 0100;  
 JavaScript Version: 0003;
 
