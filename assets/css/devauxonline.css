@@ -4,7 +4,7 @@
 /* Variable */
 :root{
 --menubuttonwidth: 16%;
---cssfileversion: "0114";
+--cssfileversion: "0123";
 --articlefont:Verdana;
 --skycamorange:#f05526;
 --skycamgrey:#a2a2a2;
@@ -177,6 +177,7 @@ min-height: 340px;
 }
 div.MenuComponent{
 display: none;
+margin-bottom: 150px;
 }
 article.Default{
 height: 100%;
@@ -265,6 +266,7 @@ content: var(--cssfileversion);
 }
 .footer-sm{
 color: #aaa;
+font-size: 11pt;
 }
 footer{
 position: fixed;
@@ -285,6 +287,8 @@ padding: 5px 0px 5px 0px;
 footer p{
 color: #ffffffff;
 margin: 0;
+font-size: 90%;
+letter-spacing: 2px;
 }
 .social-networks{
 text-align: center;
@@ -304,6 +308,13 @@ nav{
 /* Pseudo element as a placeholder for the CSS serial number that is drawn from the CSS file and populated by Javascript */
 #CSSSerNo::before{
 content: var(--cssfileversion);
+}
+.enquiry{
+font-size: 12pt;
+font-weight: 500;
+}
+.footer-lg{
+font-size: 14pt;
 }
 #Welcome h1{
 font-size: 24pt;
