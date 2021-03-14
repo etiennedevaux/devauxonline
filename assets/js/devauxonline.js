@@ -1,7 +1,10 @@
 // Global Variables
-var jsfileversion="0003";
+var jsfileversion="0006";
 
 function showMenuComponent(sect) {
+
+document.getElementById("JSSerNo").textContent="."+jsfileversion;
+
 var elements = document.getElementsByClassName("MenuComponent");
 
     for (var i = 0; i < elements.length; i++){
@@ -28,6 +31,6 @@ var elements = document.getElementsByClassName("Summary");
     for (var i = 0; i < elements.length; i++){
         elements[i].style.fontSize = fsize + "pt";
     }
-document.getElementById("SerNo").textContent="."+jsfileversion;
+
 }
 

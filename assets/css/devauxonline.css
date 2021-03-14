@@ -4,7 +4,7 @@
 /* Variable */
 :root{
 --menubuttonwidth: 16%;
---cssfileversion: "0110";
+--cssfileversion: "0114";
 --articlefont:Verdana;
 --skycamorange:#f05526;
 --skycamgrey:#a2a2a2;
@@ -264,7 +264,6 @@ color: var(--skycamdark);
 content: var(--cssfileversion);
 }
 .footer-sm{
-font-size: 90%;
 color: #aaa;
 }
 footer{
@@ -301,6 +300,10 @@ color: #ffffffff;
 display: inline;
 }
 nav{
+}
+/* Pseudo element as a placeholder for the CSS serial number that is drawn from the CSS file and populated by Javascript */
+#CSSSerNo::before{
+content: var(--cssfileversion);
 }
 #Welcome h1{
 font-size: 24pt;
