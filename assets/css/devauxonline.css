@@ -294,7 +294,7 @@ float: left;
 height: 54px;
 border: 0px solid;
 border-color: var(--skycamgrey);
-width: 100%;
+width: var(--menubuttonwidth);
 color: var(--skycamdark);
 }
 
